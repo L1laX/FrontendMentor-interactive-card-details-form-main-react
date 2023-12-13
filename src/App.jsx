@@ -92,7 +92,7 @@ function App() {
     }
     if (cvv.length == 0) {
       setValidateCvv("Can't be blank");
-    } else if (cvv.length !== 0) {
+    } else if (cvv.length < 3) {
       setValidateCvv("Wrong formet");
     } else {
       setValidateCvv("");
