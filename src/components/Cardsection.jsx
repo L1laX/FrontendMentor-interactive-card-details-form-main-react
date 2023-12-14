@@ -31,7 +31,7 @@ const Cardsection = ({ pushData }) => {
                 <img className="h-6" src={cardLogo} alt="card logo" />
               </div>
               <div className="card-content flex flex-col gap-2 text-[hsl(0,0%,100%)]">
-                <div className="number px-5  text-lg font-semibold">
+                <div className="number px-5  text-sm font-semibold">
                   {!pushData.cardNumber
                     ? "0000 0000 0000 0000"
                     : pushData.cardNumber}
@@ -55,7 +55,7 @@ const Cardsection = ({ pushData }) => {
         style={{ backgroundImage: `url(${bgDesktop})` }}
       >
         <section className="card-section-box relative mx-auto h-[200px] max-w-[375px] xl:right-0 xl:h-full xl:max-w-full">
-          <div className="back-card xl: absolute right-5 top-5 w-60 shadow-xl xl:-right-28 xl:top-[45%] xl:scale-150">
+          <div className="back-card absolute right-5 top-5 w-60 shadow-xl xl:-right-28 xl:top-[45%] xl:scale-150">
             <img
               className="absolute left-2 "
               src={bgCardBack}
@@ -74,7 +74,7 @@ const Cardsection = ({ pushData }) => {
                 <img className="h-6" src={cardLogo} alt="card logo" />
               </div>
               <div className="card-content flex flex-col gap-2 text-[hsl(0,0%,100%)]">
-                <div className="number px-5  text-lg font-semibold">
+                <div className="number px-5 text-lg font-semibold">
                   {!pushData.cardNumber
                     ? "0000 0000 0000 0000"
                     : pushData.cardNumber}
