@@ -6,6 +6,10 @@ export default {
       fontFamily: {
         spaceGrotesk: ["Space Grotesk", "sans-serif"],
       },
+      backgroundImage: {
+        bgMobile: "url('./src/assets/images/bg-main-mobile.png')",
+        bgDesktop: "url('./src/assets/images/bg-main-desktop.png')",
+      },
     },
   },
   plugins: [],
